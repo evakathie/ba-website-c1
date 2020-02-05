@@ -162,14 +162,14 @@ content="Süße Köstlichkeiten im Hamburger Karolinen-Viertel." >
        </ul>
   </div>
 
-<div class="cookie-hinweis" id="cookiehinweis">
-    <div class="col-left">
-      <p class="p-cookie">Wir nutzen Cookies um Nutzerverhalten zu analysieren und die Nutzerfreundlichkeit der Webseite zu optimieren.<br />Mehr darüber kannst du in unserer <router-link to="/pages/datenschutz.html">Datenschutzerklärung</router-link> erfahren.</p>
-    </div>
-    <div class="col-right">
-        <a class="button" onclick='document.getElementById("cookiehinweis").style="display:none";'>Akzeptieren</a>
-    </div>
-</div>
+  <div class="cookie-hinweis" id="cookiehinweis">
+      <div class="col-left">
+        <p class="p-cookie">Wir nutzen Cookies um Nutzerverhalten zu analysieren und die Nutzerfreundlichkeit der Webseite zu optimieren.<br />Mehr darüber kannst du in unserer <a href="datenschutz.html">Datenschutzerklärung</a> erfahren.</p>
+      </div>
+      <div class="col-right">
+          <a class="button cookie-hinweis-button" onclick='cookieOk()'>Akzeptieren</a>
+      </div>
+  </div>
 
 <script>
    showCookieNotice();
